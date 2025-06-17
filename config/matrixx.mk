@@ -39,7 +39,7 @@ PRODUCT_PRODUCT_PROPERTIES += \
 
 # GAPPS
 ifeq ($(WITH_GMS),true)
-$(call inherit-product, vendor/gms/products/gms.mk)
+$(call inherit-product, vendor/gapps/gapps.mk)
 endif
 
 # Include Nexus-specific overlays if TARGET_INCLUDE_NEXUS is true
